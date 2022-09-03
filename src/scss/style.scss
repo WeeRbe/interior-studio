@@ -1,0 +1,55 @@
+@import "fonts.scss";
+@import "nullstyle.scss";
+@import "404.scss";
+
+
+
+
+
+
+
+[class*=__container]{
+    max-width: 1312px;
+    margin: 0em auto;
+    color: #fff;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    min-height: 100%;
+}
+@import "header.scss";
+
+
+.popular-swiper__container{
+    position: relative;
+}
+.popular-slider{
+    position: absolute;
+    left: -64px;
+    top: 0;
+    width: 100%;
+}
+.swiper-wrapper{
+    display: inline-flex;
+    overflow: hidden;
+}
+.popular-slide{
+    &:nth-child(1){
+        width: 1227px;
+    }
+    &:nth-child(2){
+        width: 100%;
+    }
+}
+.swiper__buttom{
+    position: relative;
+    z-index: 10;
+    height: 40px;
+}
