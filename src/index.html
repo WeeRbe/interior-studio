@@ -4,31 +4,39 @@
 	"title":"Студия интерьеров"
 	})
 	<body>
+	<div class="wrapper">
 		@@include('html/header.html',{})
 		<main>
 
-<div class="popular-swiper__container">
-	<div class="popular-swiper__contents">	
-		<div class="swiper popular-slider">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide popular-slide">
-					<img src="@img/header__main/back_header.jpg" alt="#">
-				</div>
-				<div class="swiper-slide popular-slide">
-					<img src="@img/header__main/back_header2.jpg" alt="#">
-				</div>
+			<div class="popular-swiper__container">
+				<div class="popular-swiper__contents">	
+					<div class="swiper popular-slider">
+						<div class="swiper-wrapper">
+							<div class="image-slider__slide swiper-slide">
+								<div class="image-slider__image">
+									<img src="@img/header__main/back_header.jpg" alt="#">
+								</div>
+							</div>
+							<div class="image-slider__slide swiper-slide">
+								<div class="image-slider__image2">
+									<img src="@img/header__main/back_header2.jpg" alt="#">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper__buttom">
+						<div class="swiper-button-prev">
+							<img src="@img/svgicons/prev_arrow.svg" class="svg-prev_arrow-dims" alt="prev_arrow">
+						</div>
+						<div class="swiper-button-next">
+							<img src="@img/svgicons/next_arrow.svg" class="svg-next_arrow-dims" alt="next_arrow">
+						</div>
+					</div>
+				</div>	
 			</div>
-		</div>
-		<div class="swiper__buttom">
-			<div class="swiper-button-prev">
-				<img src="../icons/icons.svg#next_arrow" class="svg-next_arrow-dims" alt="next_arrow">
-			</div>
-			<div class="swiper-button-next"></div>
-		</div>
-	</div>	
-</div>
 		</main>
 		@@include('html/footer.html',{})
+	</div>
 		<script src="js/app.min.js"></script>
 	</body>
 </html>

@@ -35,21 +35,29 @@
     left: -64px;
     top: 0;
     width: 100%;
+    height: 744px;
 }
+
 .swiper-wrapper{
     display: inline-flex;
     overflow: hidden;
 }
 .popular-slide{
-    &:nth-child(1){
-        width: 1227px;
-    }
     &:nth-child(2){
-        width: 100%;
+        img{
+            height: 744px;
+        }
     }
 }
+
 .swiper__buttom{
     position: relative;
     z-index: 10;
     height: 40px;
+}
+.image-slider__image2{
+    img{
+        height: 744px;
+        inline-size: 100%;
+    }
 }

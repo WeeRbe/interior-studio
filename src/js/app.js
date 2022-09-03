@@ -6,8 +6,9 @@ flsFunctions.isWebp();
 
 //Swiper
 const swiper = new Swiper('.popular-slider', {
-  
-  slidesPerView: 1.1,
+  autoHight: true,
+  watchOverflow: true,
+  slidesPerView: 1.07,
   loop: true,
     // Navigation arrows
     navigation: {
