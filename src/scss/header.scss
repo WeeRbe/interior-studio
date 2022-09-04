@@ -42,7 +42,9 @@
     line-height: 13px;
     letter-spacing: 0.06em;
     color: #fff;
+
         li{
+            transition: all 0.4s;
                 &:nth-child(1){
                     margin-right: 48px;
                 }
@@ -54,6 +56,9 @@
                 }
                 &:last-child{
                     margin-right: 0;
+                }
+                &:hover{
+                    text-decoration: underline;
                 }
         }
 }
