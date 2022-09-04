@@ -384,7 +384,6 @@ body {
   font-size: 48px;
   line-height: 47px;
   letter-spacing: 0.04em;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #fff;
 }
