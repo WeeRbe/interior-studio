@@ -457,6 +457,7 @@
     font-size: 22px;
     line-height: 28px;
     margin: 0 0 33px 32px;
+    width: 100%;
 }
 .projects-grid__icon-3 {
     grid-row: 2/3;
@@ -501,7 +502,8 @@
         font-size: 22px;
         line-height: 28px;
         color: #080808;
-        margin-top: 113px
+        margin-top: 113px;
+        width: 100%;
     }
 }
 .projects__footer-contents{
@@ -530,121 +532,118 @@
     position: relative;
     top: 0;
     left: 0;
-    &:hover{
-        z-index: 2;
-    }
-    img:hover{
-        height: 370px;
-    }
+    transition: all .5s;
+    height: 295px;
+        &:hover{
+            height: 350px;
+            inline-size: 100%;
+        }
 }
 .projects__fc-incons-2 {
     position: relative;
     top: 0;
     left: -174px;
-    &:hover{
-        z-index: 2;
-    }
-    img:hover{
-        height: 370px;
-    }
+    transition: all .5s;
+    height: 275px;
+        &:hover{
+            height: 380px;
+            inline-size: 120%;
+        }
 }
 .projects__fc-incons-3 {
     position: relative;
     top: -24px;
     left: -348px;
-    &:hover{
-        z-index: 2;
-    }
-    img:hover{
-        height: 370px;
-    }
+    transition: all .5s;
+    height: 294px;
+        &:hover{
+            height: 380px;
+            inline-size: 120%;
+        }
 }
 .projects__fc-incons-4 {
     position: relative;
-    top: -39px;
+    top: -38px;
     left: -522px;
-    &:hover{
-        z-index: 2;
-    }
-    img:hover{
-        height: 370px;
-    }
+    transition: all 0.5s;
+    height: 280px;
+        &:hover{
+            height: 380px;
+            inline-size: 120%;
+        }
 }
 .projects__fc-incons-5 {
     position: relative;
     top: -83px;
-    left: -697px;
-    &:hover{
-        z-index: 2;
-    }
-    img:hover{
-        height: 370px;
-    }
+    left: -696px;
+    transition: all .5s;
+    height: 307px ;
+        &:hover{
+            height: 380px;
+            inline-size: 120%;
+        }
 }
 .projects__fc-incons-6 {
     position: relative;
     top: -92px;
-    left: -907px;
-    &:hover{
-        z-index: 2;
-    }
-    img:hover{
-        height: 370px;
-    }
+    left: -906px;
+    transition: all 0.5s;
+    height: 295px;
+        &:hover{
+            height: 380px;
+            inline-size: 120%;
+        }
 }
 .projects__fc-incons-7 {
     position: relative;
     top: -92px;
-    left: -1081px;
-    &:hover{
-        z-index: 2;
-    }
-    img:hover{
-        height: 370px;
-    }
+    left: -1080px;
+    transition: all 0.5s;
+    height: 274px;
+        &:hover{
+            height: 380px;
+            inline-size: 120%;
+        }
 }
 .projects__fc-incons-8 {
     position: relative;
     top: -116px;
-    left: -1255px;
-    &:hover{
-        z-index: 2;
-    }
-    img:hover{
-        height: 370px;
-    }
+    left: -1253px;
+    transition: all 0.5s;
+    height: 293px;
+        &:hover{
+            height: 380px;
+            inline-size: 120%;
+        }
 }
 .projects__fc-incons-9 {
     position: relative;
-    top: -130px;
-    left: -1429px;
-    &:hover{
-        z-index: 2;
-    }
-    img:hover{
-        height: 370px;
-    }
+    top: -131px;
+    left: -1426px;
+    height: 307px;
+    transition: all 0.5s;
+    height: 281px;
+        &:hover{
+            height: 380px;
+            inline-size: 120%;
+        }
 }
 .projects__fc-incons-10 {
     position: relative;
     top: -175px;
-    left: -1603px;
-    transition: all .5s;
-    img{
-        transition: all .5s; 
-    }
-    &:hover{
-        z-index: 2;
-    }
-    img:hover{
-        height: 370px;
-    }
+    left: -1601px;
+    transition: all 0.5s;
+    height: 307px;
+        &:hover{
+            height: 380px;
+            inline-size: 120%;
+        }
 }
 .projects__fc-text{
     width: 339px;
     display: flex;
     flex-direction: column;
-    margin: 26px  0 0 auto;
+    margin: 25px  0 0 auto;
     position: relative;
     z-index: 3;
     p{
@@ -667,7 +666,7 @@
         color: #080808;
         background-color: #FFFFFF;
         padding: 17px 48px 17px 49px;
-        margin-top: 45px;
+        margin-top: 46px;
         transition: all 0.4s;
             &:hover{
                 background-color: black;
@@ -675,4 +674,85 @@
                 box-shadow:0 0 100px #fff;
             }
     }
+}
+.projects__abs-footer{
+    top: 33px;
+    left: -153px;
+}
+.block__lorem-icon{
+    background-color: #FAFAFA;
+    overflow: hidden;
+}
+.block__lorem-icon-title{
+    color: #080808;
+    width: 427px;
+    margin: 0px auto 0px auto;
+    padding: 345px 0px 338px;
+    
+        h2{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 68px;
+        }
+        p{
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 23px;
+            text-align: center;
+            margin-top: 17px;
+        }
+}
+.lorem-icon__container{
+    position: relative;
+}
+.lorem-icons{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.lorem-icon-1{
+    position: relative;
+    top: -144px;
+    left: 709px;
+    z-index: 1;
+}
+.lorem-icon-2{
+    position: relative;
+    top: 62px;
+    left: 642px;
+}
+.lorem-icon-3{
+    position: relative;
+    top: 428px;
+    right: -434px;
+}
+.lorem-icon-4 {
+    position: relative;
+    top: 719px;
+    right: 324px;
+}
+.lorem-icon-5 {
+    position: relative;
+    top: 282px;
+    right: -214px;
+}
+.lorem-icon-6 {
+    position: relative;
+    top: 442px;
+    right: 480px;
+}
+.lorem-icon-7 {
+    position: relative;
+    top: -98px;
+    right: 769px;
+    z-index: 1;
+}
+.lorem-icon-8 {
+    position: relative;
+    top: -220px;
+    right: 836px;
 }
