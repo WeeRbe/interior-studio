@@ -5,22 +5,19 @@ flsFunctions.isWebp();
 
 
 //Swiper
-const swiper = new Swiper('.popular-slider', {
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
   autoHight: true,
   watchOverflow: true,
-  slidesPerView: 1.07,
+  slidesPerView: 1.174,
   loop: true,
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'progressbar'
-    }
-  });
 
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
   //DOM load event
 window.addEventListener("DOMContentLoaded", () => {
 
@@ -51,4 +48,13 @@ window.addEventListener("DOMContentLoaded", () => {
       spotlight.style.backgroundImage = `radial-gradient(circle at ${e.pageX / window.innerWidth * 100}% ${e.pageY / window.innerHeight * 40}%, ${spotlightSize}`;
 
   }
+});
+
+
+//Burger menu
+$(document).ready(function() {
+	$('.header__burger').click(function(event) {
+		$('.header__burger,.header__menu').toggleClass('active');
+		$('body').toggleClass('lock');
+	});
 });

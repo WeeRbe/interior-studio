@@ -8,71 +8,57 @@
 		@@include('html/header.html',{})
 		<main class="main">
 
-			<div class="popular-swiper__container">
-					<div class="swiper popular-slider">
-						<div class="swiper-wrapper">
-							<div class="image-slider__slide swiper-slide">
-								<div class="image-slider__image">
-									<img src="@img/header__main/back_header.jpg" alt="#">
-								</div>
-							</div>
-							<div class="image-slider__slide swiper-slide">
-								<div class="image-slider__image2">
-									<img src="@img/header__main/back_header2.jpg" alt="#">
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="popular-swiper__contents">	
-						<div class="ps-content__left">
-							<h1 class="ps__title">Thoughtful making of space</h1>
-							<div class="sp__discover">
-								<div class="sp-discover__left">
-									<span class="sp-border-1"></span>
-									<p class="sp-discover-left__text">
-										Discover more
-									</p>
-									<span class="sp-border-2"></span>
-								</div>
-
-								<div class="swiper__buttom">
-									<div class="swiper-button-prev">
-										<img src="@img/svgicons/prev_arrow.svg" class="svg-prev_arrow-dims" alt="prev_arrow">
+				<div class="swiper swiper-block">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide slide-content-1">
+							<div class="main__container">
+								<div class="main__title-block">
+									<div class="main__title-content">
+										<h1 class="main__title">Thoughtful making of space</h1>
+										<p class="text-border">Discover more</p>
 									</div>
-									<p class="pagination_1">02</p>
-									<div class="swiper-pagination"></div>
-									<p class="pagination_2">04</p>
-									<div class="swiper-button-next">
-										<img src="@img/svgicons/next_arrow.svg" class="svg-next_arrow-dims" alt="next_arrow">
+									<div class="button__slider-content">
+										<div class="swiper-button-prev">
+											<img src="@img/svgicons/prev_arrow.svg" alt="#">
+											<p class="number__slider-prev">02</p>
+										</div>
+										<span></span>
+										<div class="swiper-button-next">
+											<p class="number__slider-next">04</p>
+											<img src="@img/svgicons/next_arrow.svg" alt="#">
+										</div>
+									</div>
+								</div>
+								<div class="main__title-block-footer">
+									<div class="main__tbf-lang">
+										<p>Fb</p>
+										<p>In</p>
+										<p>Be</p>
+									</div>
+									<select name="country" class="country">
+										<option value="1" selected>Berlin</option>
+										<option value="1">USA</option>
+										<option value="1">Franch</option>
+									</select>
+									<div class="back__call">
+										<p>+380983527547</p>
+										<p>E: info@gmail.com</p>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>	
-
-					<div class="heade__rotate-text">
-						<h6>Next Project</h6>
-						<p>Perfect proportions</p>
-					</div>
-
-					<div class="ps__footer">
-						<div class="ps-footer__text">
-							<p>Fb</p>
-							<p>In</p>
-							<p>Be</p>
-						</div>
-						<select name="country" class="select__header">
-							<option value="1" selected>Berlin</option>
-							<option value="1">USA</option>
-							<option value="1">Franch</option>
-						</select>
-						<div class="ps__contacts">
-							<p>+380983527547</p>
-							<p>E: info@gmail.com</p>
+						<div class="swiper-slide slide-content-2">
+							<div class="main-2__container">
+								<div class="swiper__logo-next">
+									<h4>Next Project</h4>
+									<p>Perfect 
+										proportions</p>
+								</div>
+							</div>
 						</div>
 					</div>
-			</div>
+				</div>
+
 
 			<div class="index__philosophy">
 				<div class="philosophy__container">
@@ -190,9 +176,68 @@
 					</div>
 				</div>
 			</div>
+
+			<footer class="contact">
+				<div class="contact__container">
+					<div class="content__title">
+						<h4>Drop us a line</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. </p>
+					</div>
+					<div class="content__informs">
+						<div class="content__contents">
+							<div class="content__inform-title content__inform-title-1">
+								<h4>Kyiv</h4>
+								<p>(209) 555-0104
+									6391&nbsp;Elgin St. Celina,
+									Delaware 10299</p>
+							</div>
+							<div class="content__inform-title content__inform-title-2">
+								<h4>Lviv</h4>
+								<p>(209) 555-0104
+									6391&nbsp;Elgin St. Celina,
+									Delaware 10299</p>
+							</div>
+							<div class="content__inform-title content__inform-title-3">
+								<h4>Kharkiv</h4>
+								<p>(209) 555-0104
+									6391&nbsp;Elgin St. Celina,
+									Delaware 10299</p>
+							</div>
+						</div>
+						<div class="content__infomt-contacts">
+							<p>info@gmail.com</p>
+							<div class="ps-footer__text ps-footer__text-2">
+								<p>Fb</p>
+								<p>In</p>
+								<p>Be</p>
+							</div>
+						</div>
+					</div>
+					<div class="projects__fc-text projects__fc-text-footer">
+						<a href="#" class="projects__fc-text-btn">Make request</a>	
+					</div>
+					<div class="contact__footer">
+						<div class="contact__footer-left">
+							<p>© Copyright 2018. All rights reserved</p>
+						</div>
+					<div class="contact__footer-rigft">
+						<p>Made with love in</p>
+						<div class="footer__first">
+							<p>The First</p>
+							<p>The Last.</p>
+						</div>
+					</div>
+					</div>
+				</div>
+			</footer>
 		</main>
 		@@include('html/footer.html',{})
 	</div>
+		
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<!-- Подключаем jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<!-- Подключаем файл JS скриптов -->
 		<script src="js/app.min.js"></script>
 	</body>
 </html>
