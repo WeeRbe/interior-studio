@@ -20,7 +20,10 @@
 @import "header.scss";
 .main{
     flex: 1 1 auto;
-
+    transition: all 0.4s;
+}
+.main.active{
+    display: none;
 }
 .swiper__container{
     position: relative;
@@ -856,6 +859,9 @@
 }
 .ps-footer__text-2{
 margin: 24px 0px 0px 0px;
+display: flex;
+justify-content: space-between;
+width: 77px;
 }
 .projects__fc-text-footer{
     margin: 20px 0px 0px 130px;

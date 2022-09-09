@@ -1,4 +1,4 @@
-<header class="header">
+<header id="header" class="header lock-padding">
     <div class='header__container'>
         <div class="header__body">
             <a href="#" class="header__logo">
@@ -8,27 +8,56 @@
             <nav class="header__menu">
                 <ul class="header__list">
                     <li>
-                        <a href="" class="header__link">Home</a>
+                        <a href="#" class="header__link">Home</a>
                     </li>
                     <li>
-                        <a href="" class="header__link">Projects</a>
+                        <a href="#" class="header__link">Projects</a>
                     </li>
                     <li>
-                        <a href="" class="header__link">About us</a>
+                        <a href="#" class="header__link">About us</a>
                     </li>
                     <li>
-                        <a href="" class="header__link">Blog</a>
+                        <a href="#" class="header__link">Blog</a>
                     </li>
                     <li>
-                        <a href="" class="header__link">Contacts</a>
+                        <a href="#" class="header__link">Contacts</a>
                     </li>
                 </ul>
             </nav>
             <p class="text__menu">Menu</p>
             <div class="header__btn">
                 <p>En</p>
-                <a href="#" class="btn header__button">Send Request</a>
+                <a href="#" id="open__popup" class="header__button btn">Send Request</a>
+            </div>
+
+            <div id="popup" class="popup">
+                <div class="popup__container">
+                    <div id="popup__body" class="popup__body">
+                        <div class="popup__top-content">
+                            <h2 class="popup__title">Calculate the cost of work</h2>
+                            <form action="#" class="form__popup">
+                                <div class="popup__input-left">
+                                    <input type="text" placeholder="Name">
+                                    <input type="text" placeholder="Phone">
+                                    <input type="text" placeholder="Email"> 
+                                </div>
+                                <div class="popup__input-right">
+                                    <input type="text" placeholder="Last name">
+                                    <input type="text" placeholder="Your city">
+                                    <input type="text" placeholder="Property type">
+                                </div>
+                                
+                            </form>
+                            <form action="#" class="popup__main-form"><input type="text" placeholder="Your comment"></form>
+                        </div>
+                        <div class="popup__bottom-content">
+                            <p class="popup__bottom-title">Area (m2)</p>
+                        </div>
+                        <div id="popup__close" class="popup__close"><img src="@img/svgicons/close.svg" alt="#"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </header>
+

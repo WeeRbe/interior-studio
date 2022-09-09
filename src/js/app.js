@@ -1,6 +1,7 @@
 import * as flsFunctions from "./modules/functions.js";
 import "./modules/swipe.js";
 
+
 flsFunctions.isWebp();
 
 
@@ -58,3 +59,27 @@ $(document).ready(function() {
 		$('body').toggleClass('lock');
 	});
 });
+
+
+//Popup
+
+const openPopUp = document.getElementById('open__popup');
+const closePopUp = document.getElementById('popup__close');
+const popUp = document.getElementById('popup');
+const lockOwerflow = document.getElementById('lock');
+
+
+openPopUp.addEventListener('click', function(e){
+	e.preventDefault();
+	popUp.classList.add('active');
+  lockOwerflow.classList.add('active');
+})
+
+closePopUp.addEventListener('click', () => {
+	popUp.classList.remove('active');
+  lockOwerflow.classList.remove('active');
+})
+
+
+  
+
