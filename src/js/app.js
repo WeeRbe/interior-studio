@@ -13,10 +13,16 @@ const swiper = new Swiper('.swiper', {
   loop: true,
   breakpoints: {
     1440:{
-      slidesPerView: 1.174
+      slidesPerView: 1.173
     },
     1024: {
       slidesPerView: 1.1881
+    },
+    768: {
+      slidesPerView: 1.1745
+    },
+    375: {
+      slidesPerView: 1.196
     }
   },
   // Navigation arrows
