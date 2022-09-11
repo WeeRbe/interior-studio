@@ -10,15 +10,25 @@ const swiper = new Swiper('.swiper', {
   // Optional parameters
   autoHight: true,
   watchOverflow: true,
-  slidesPerView: 1.174,
   loop: true,
-
+  breakpoints: {
+    1440:{
+      slidesPerView: 1.174
+    },
+    1024: {
+      slidesPerView: 1.1881
+    }
+  },
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
 });
+
+
+
+
   //DOM load event
 window.addEventListener("DOMContentLoaded", () => {
 
@@ -80,6 +90,4 @@ closePopUp.addEventListener('click', () => {
   lockOwerflow.classList.remove('active');
 })
 
-
-  
 

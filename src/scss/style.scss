@@ -259,7 +259,16 @@
 // ==========================================================
 .philosophy__container{
     color: #080808;
+    position: relative;
 }
+.projects__abs{
+    &.philosophy__abs{
+        color: rgba(130, 130, 130, 0.35);
+        top: 218px;
+        left: 5px;
+    }
+}
+
 .philosophy__contents {
     padding-top: 140px;
 }
@@ -288,6 +297,9 @@
 }
 .pct__tit{
     margin: 24px 0 0px 0;
+    br{
+        display: none;
+    }
 }
 .pct__tib{
     margin: 13px 0 36px 0;
@@ -452,6 +464,12 @@
         background-position: center center;
     }
 }
+.pg__i1{
+    display: none;
+}
+.pg__i3{
+    display: none;
+}
 .projects-grid__icon-2 {
     grid-row: 1/2;
     grid-column: 2/3;
@@ -490,6 +508,9 @@
     line-height: 28px;
     margin: 0 0 33px 32px;
     width: 100%;
+}
+.pg__i2{
+    display: none;
 }
 .projects-grid__icon-3 {
     grid-row: 2/3;
