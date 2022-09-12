@@ -23,7 +23,7 @@ const swiper = new Swiper('.swiper', {
     },
     375: {
       slidesPerView: 1.196
-    }
+    },
   },
   // Navigation arrows
   navigation: {
@@ -31,8 +31,6 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 });
-
-
 
 
   //DOM load event

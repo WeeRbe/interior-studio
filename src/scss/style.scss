@@ -636,6 +636,9 @@
             inline-size: 120%;
         }
 }
+.projects-grid__icon-6{
+    display: none;
+}
 .projects__fc-incons-6 {
     position: relative;
     top: -92px;
@@ -935,6 +938,9 @@ width: 77px;
     }
 }
 
+@import "headerblack.scss";
 
 
+
+@import "news.scss";
 @import "media.scss";

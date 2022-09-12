@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('html/head.html',{
+        "title":"Студия интерьеров"
+        })
+<body>
+    <div class="wrapper wrapper__news">
+        @@include('html/headerblack.html',{})
+
+    <main id="lock" class="main">
+        <div class="header-news__container">
+            <div class="news__header-nav">
+                <h2>Our latest news</h2>
+                <select name="Apartments" class="header-select__nav-news">
+                    <option value="">Apartments</option>
+                    <option value="1">All</option>
+                    <option value="2">Blog</option>
+                    <option value="3">News</option>
+                    <option value="4">Advice from the designer</option>
+                </select>
+                <ul class="header__nav-news">
+                    <li>All</li>
+                    <li>Blog</li>
+                    <li>News</li>
+                    <li>Advice from the designer</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="grid-news__container">
+            <div class="grid-news__contents">
+                <div class="grid-news__content-1">
+                    <img src="@img/grid__news/grid4.jpg" alt="#" class="grid-news__content-icons-1">
+                    <h4>5 smart tips for <br> productive collaboration <br> with the designer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida urna. Donec blandit sapien eu diam ullamcorper euismod. Nam tempus pellentesque ligula ut aliquam.</p>
+                    <div class="discover">
+                        <span class="discover-left"></span>
+                        <p>Discover more</p>
+                        <span class="discover-right"></span>
+                    </div>
+                </div>
+                <div class="grid-news__content-2"></div>
+                <div class="grid-news__content-3">
+                    <p>Non-standard <br> plinth options</p>
+                </div>
+                <div class="grid-news__content-4">
+                    <p>Interior design, <br> LCD Rybalsky</p>
+                </div>
+                <div class="grid-news__content-5"></div>
+                <div class="grid-news__content-6">
+                    <img src="@img/grid__news/grid6.jpg" alt="#" class="grid-news__content-icons-6">
+                    <h4>5 smart tips for <br> productive collaboration <br> with the designer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras <br> vel gravida urna. Donec blandit sapien eu diam ullamcorper euismod. Nam tempus pellentesque ligula ut aliquam.</p>
+                    <div class="discover">
+                        <span class="discover-left"></span>
+                        <p>Discover more</p>
+                        <span class="discover-right"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="numbers__nav">
+                <span class="numbers__nav-prev"><img src="@img/svgicons/number__nav-rpev.svg" alt="prev"></span>
+                    <div class="number__nsv-number">
+                        <p>01</p>
+                        <p>02</p>
+                        <p>03</p>
+                        <p>...</p>
+                        <p>15</p>
+                    </div>
+                <span class="numbers__nav-next"><img src="@img/svgicons/number__nav-next.svg" alt="next"></span>
+            </div>
+        </div>
+
+
+        
+        <div class="news-email__container">
+            <div class="news-email__icon"></div>
+
+            <div class="news-email__content-top">
+                <h2>Lorem ipsum dolor sit <br> amet, consectetur <br> adipiscing elit. </h2>
+            </div>
+            <div class="news-email__content-bottom">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Aliquam ullamcorper eu mauris vitae posuere. <br> Ut at luctus ligula. Nunc ante felis, aliquam.</p>
+                <form action="#" class="email-btn">
+                    <input type="email" placeholder="Email" class="email-block">
+                    <a href="#" class="send"><img src="@img/svgicons/next__email.svg" alt="next"></a>
+                </form>
+                
+            </div>
+
+            <footer class="footer">
+                <div class="footer__contents">
+                    <p class="footer__left">© Copyright 2018. All rights reserved</p>
+                
+                    <div class="footer__right">
+                        <p>Made with love in</p>
+
+                        <div class="footer__logo">
+                            <h5>The First</h5>
+                                <p>The Last</p>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+        </div>
+
+
+    </main>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Подключаем jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <!-- Подключаем файл JS скриптов -->
+    <script src="js/app.min.js"></script>
+</body>
+</html>

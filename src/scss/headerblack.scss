@@ -1,0 +1,22 @@
+.header__logo-black{
+    color: #000;
+}
+.header__link-black{
+    color: #000;
+}
+.text__menu-black{
+    color: #000;
+}
+.header__btn-black{
+    color: #000;
+}
+.header__button-black{
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+}
+.header__burger-black{
+    &::before,
+    &::after{
+        background-color: #000;
+    }
+}
