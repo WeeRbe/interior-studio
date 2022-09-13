@@ -1,5 +1,5 @@
 import * as flsFunctions from "./modules/functions.js";
-import "./modules/swipe.js";
+//import "./modules/swipe.js";
 
 
 flsFunctions.isWebp();
@@ -7,7 +7,6 @@ flsFunctions.isWebp();
 
 //Swiper
 const swiper = new Swiper('.swiper', {
-  // Optional parameters
   autoHight: true,
   watchOverflow: true,
   loop: true,
@@ -95,3 +94,4 @@ closePopUp.addEventListener('click', () => {
 })
 
 
+import "./modules/onenewsswiper.js";
