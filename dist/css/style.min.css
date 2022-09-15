@@ -2248,6 +2248,276 @@ body {
   margin: 176px 0px 34px 0px;
 }
 
+.wrapper__oneprojects {
+  background-color: #FAFAFA;
+}
+
+.header__oneprojects {
+  background-image: url("../img/oneprojects/header-oneprojects-big.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.oneprojects__contents {
+  padding: 262px 0px 39px 0px;
+}
+
+.oneprojects__header-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin: 0px 0px 0px 133px;
+}
+.oneprojects__header-title br {
+  display: none;
+}
+
+.oneprojects__header-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 20px 0px 0px 133px;
+  width: 35%;
+}
+
+.oneprojects__header-thumb {
+  display: flex;
+  align-items: center;
+  margin: 67px 0px 0px 133px;
+}
+
+.oneprojects__header-thumb-1 {
+  display: flex;
+  align-items: center;
+}
+
+.thumb-text-1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  opacity: 0.7;
+  margin: 1px 0px 0px 14px;
+}
+
+.oneprojects__header-thumb-2 {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 32px;
+}
+
+.thumb-text-2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  opacity: 0.7;
+  margin: 2px 0px 0px 12px;
+}
+
+.oneprojects__header-thumb-3 {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 33px;
+}
+
+.thumb-text-3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  opacity: 0.7;
+  margin: 4px 0px 0px 11px;
+}
+
+.oneprojects__header-share {
+  display: flex;
+  align-items: center;
+  margin: 198px 0 0 -22px;
+}
+.oneprojects__header-share p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.oneprojects__header-share-icons {
+  display: flex;
+  margin: 0px 0 0 111px;
+}
+.oneprojects__header-share-icons img:nth-child(1) {
+  margin: 0px 7px 0px 0px;
+}
+.oneprojects__header-share-icons img:nth-child(2) {
+  margin: 0px 7px 0px 0px;
+}
+.oneprojects__header-share-icons img:nth-child(3) {
+  margin: 0px 7px 0px 0px;
+}
+
+.main-text__oneprojects-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #080808;
+  width: 32%;
+  margin: 140px 0px 0px 133px;
+}
+
+.main-text__oneprojects-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #080808;
+  opacity: 0.7;
+  width: 55%;
+  margin: 15px 0px 0px 133px;
+}
+
+.discover__main-text {
+  margin: 44px 0px 0px 134px;
+}
+
+.oneprojects-grid__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 8px;
+  margin: 140px 0px 0px 0px;
+}
+
+.oneprojects-grid__content-icon-1 {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
+}
+
+.oneprojects-grid__content-icon-2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 100%;
+  height: 100%;
+}
+
+.oneprojects-grid__content-icon-3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 100%;
+  height: 100%;
+}
+
+.oneprojects-grid__content-icon-4 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  width: 100%;
+  height: 100%;
+}
+
+.oneprojects-grid__btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #080808;
+  border: 1px solid rgba(8, 8, 8, 0.32);
+  width: 204px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px auto 0px auto;
+}
+
+.oneprojects__abs {
+  display: none;
+}
+
+.oneprojects__footer-contents {
+  position: relative;
+  background-position: center;
+  background: radial-gradient(50% 50% at 50% 50%, #0F0F0F 0%, #080808 100%);
+}
+
+.oneprojects__footer-contents-2 {
+  margin: 159px auto 0px;
+}
+
+.oneprojects__fc-tetle {
+  color: #FFFFFF;
+}
+
+.oneprojects__fc-text {
+  color: #fff;
+}
+
+.oneprojects__footer-contents {
+  margin: 140px auto 0px;
+  padding: 18px 0px 345px 0px;
+}
+
+.oneprojects__fc-incons {
+  top: 108px;
+}
+
+.oneprojects__perfect {
+  text-align: center;
+  margin: 180px 0px 0px 0px;
+}
+.oneprojects__perfect p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: #828282;
+  margin: 0 0px 0 -5px;
+  width: 100%;
+}
+.oneprojects__perfect h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin: 14px 0 0 0;
+}
+
+.oneprojects__footer__container {
+  position: relative;
+}
+
+.oneprojects__footer-bigicon {
+  position: absolute;
+  bottom: -551px;
+}
+
+.footer-invis {
+  height: 206px;
+}
+
 @media (max-width: 1024px) {
   [class*=__container] {
     max-width: 912px;
@@ -2360,7 +2630,7 @@ body {
     margin-top: 21px;
   }
   .header__logo {
-    margin: 0px 93px 0px 0px;
+    margin: 0px 89px 0px 4px;
   }
   .header__burger {
     margin-top: 0;
@@ -2397,6 +2667,9 @@ body {
   }
   .header__btn p {
     margin: 3px 53px 0 0px;
+  }
+  .header__logo {
+    margin: 0px 89px 0px 0px;
   }
 }
 @media (max-width: 1024px) {
@@ -4566,5 +4839,291 @@ body {
   }
   .footer__right-projects {
     margin: 8px 0px 0 4px;
+  }
+}
+@media (max-width: 1024px) {
+  .header__oneprojects {
+    background-image: url("../img/oneprojects/header-oneprojects-big1024.jpg");
+  }
+  .oneprojects__contents {
+    padding: 234px 0px 33px 0px;
+  }
+  .oneprojects__header-title {
+    font-size: 32px;
+    line-height: 39px;
+    margin: 0px 0px 0px 103px;
+  }
+  .oneprojects__header-title br {
+    display: block;
+  }
+  .oneprojects__header-text {
+    width: 51%;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 21px 0px 0px 103px;
+  }
+  .oneprojects__header-thumb {
+    margin: 51px 0px 0px 103px;
+  }
+  .oneprojects__header-share {
+    display: flex;
+    align-items: center;
+    margin: 175px 0 0 0px;
+  }
+  .oneprojects__header-share-icons {
+    margin: 0px 0 0 59px;
+  }
+  .main-text__oneprojects-title {
+    width: 45%;
+    margin: 123px 0px 0px 103px;
+  }
+  .main-text__oneprojects-text {
+    width: 66%;
+    margin: 13px 0px 0px 103px;
+  }
+  .discover__main-text {
+    margin: 45px 0px 0px 104px;
+  }
+  .oneprojects-grid__content {
+    margin: 125px 0px 0px 0px;
+  }
+  .oneprojects-grid__content-icon-2 {
+    height: 101%;
+  }
+  .oneprojects-grid__content-icon-3 {
+    height: 101%;
+  }
+  .oneprojects-grid__content-icon-4 {
+    height: 99%;
+    margin: 5px 0 0 0;
+  }
+  .oneprojects-grid__btn {
+    margin: 65px auto 0px auto;
+  }
+  .oneprojects__footer-contents {
+    margin: 124px auto 0px;
+    padding: 1px 0px 263px 0px;
+  }
+  .oneprojects__abs {
+    display: flex;
+    top: 141px;
+    left: 39px;
+    z-index: 2;
+  }
+  .oneprojects__fc-tetle {
+    margin: 0 auto 0 276px;
+  }
+  .oneprojects__perfect {
+    text-align: center;
+    margin: 142px 0px 0px 0px;
+  }
+  .oneprojects__perfect p {
+    font-size: 8px;
+    line-height: 11px;
+    letter-spacing: 0.2em;
+    margin: 0 0px 0 0px;
+  }
+  .oneprojects__perfect h2 {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .oneprojects__footer-contents {
+    padding: 1px 0px 374px 0px;
+  }
+  .footer-invis {
+    display: none;
+  }
+  .oneprojects__footer-bigicon {
+    position: absolute;
+    bottom: -374px;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .oneprojects__contents {
+    padding: 369px 0px 33px 0px;
+  }
+  .oneprojects__header-title {
+    margin: 0px 0px 0px 90px;
+  }
+  .oneprojects__header-text {
+    width: 65%;
+    margin: 21px 0px 0px 90px;
+  }
+  .oneprojects__header-thumb {
+    margin: 35px 0px 0px 90px;
+  }
+  .oneprojects__header-share {
+    margin: 311px 0 0 14px;
+  }
+  .oneprojects__header-share-icons {
+    margin: 0px 0 0 32px;
+  }
+  .header__oneprojects {
+    background-image: url("../img/oneprojects/header-oneprojects-big768.jpg");
+  }
+  .main-text__oneprojects-title {
+    width: 59%;
+    margin: 103px 0px 0px 91px;
+  }
+  .main-text__oneprojects-text {
+    width: 74.7%;
+    margin: 21px 0px 0px 90px;
+  }
+  .main-text__oneprojects-text br {
+    display: none;
+  }
+  .discover__main-text {
+    margin: 45px 0px 0px 92px;
+  }
+  .oneprojects-grid__content {
+    margin: 104px 0px 0px 0px;
+    padding: 0 14px 0 14px;
+  }
+  .oneprojects-grid__content-icon-4 {
+    margin: 4px 0 0 0;
+  }
+  .oneprojects-grid__btn {
+    margin: 56px 252px 0px auto;
+    padding: 1px 0 0 0;
+  }
+  .oneprojects__footer-contents {
+    margin: 104px auto 0px;
+  }
+  .oneprojects__abs {
+    left: 31px;
+  }
+  .oneprojects__fc-tetle {
+    margin: -1px auto 0 170px;
+  }
+  .oneprojects__perfect {
+    text-align: center;
+    margin: 124px 0px 0px 0px;
+  }
+  .oneprojects__perfect h2 {
+    margin: 12px 0 0 0;
+  }
+  .oneprojects__footer-bigicon {
+    position: absolute;
+    bottom: -259px;
+    width: 100%;
+    padding: 0 14px;
+  }
+  .oneprojects__footer-contents {
+    padding: 1px 0px 215px 0px;
+  }
+}
+@media (max-width: 375px) {
+  .header__oneprojects {
+    background-image: url("../img/oneprojects/header-oneprojects-big375.jpg");
+  }
+  .oneprojects__contents {
+    padding: 107px 0px 25px 0px;
+  }
+  .oneprojects__header-title {
+    font-size: 26px;
+    line-height: 32px;
+    margin: 0px 0px 0px 14px;
+  }
+  .oneprojects__header-text {
+    width: 91%;
+    margin: 12px 0px 0px 14px;
+  }
+  .oneprojects__header-thumb {
+    margin: 36px 0px 0px 0px;
+    display: block;
+  }
+  .oneprojects__header-thumb-1 {
+    margin: 0 0 0 14px;
+  }
+  .oneprojects__header-thumb-2 {
+    margin: 24px 0px 0px 14px;
+  }
+  .thumb-text-2 {
+    margin: 0px 0px 0px 12px;
+  }
+  .oneprojects__header-thumb-3 {
+    margin: 23px 0px 0px 14px;
+  }
+  .oneprojects__header-thumb-3 {
+    margin: 23px 0px 0px 14px;
+  }
+  .thumb-text-3 {
+    margin: 4px 0px 0px 12px;
+  }
+  .oneprojects__header-share {
+    margin: 58px 0 0 16px;
+  }
+  .oneprojects__header-share-icons {
+    margin: 0px 0 0 16px;
+  }
+  .main-text__oneprojects-title {
+    width: 84%;
+    margin: 79px 0px 0px 15px;
+  }
+  .main-text__oneprojects-text {
+    width: 91%;
+    margin: 21px 0px 0px 15px;
+  }
+  .discover__main-text {
+    margin: 44px 0px 0px 16px;
+  }
+  .oneprojects-grid__content {
+    margin: 80px 0px 0px 0px;
+    grid-template-columns: 1fr;
+    padding: 0 15px 0 15px;
+  }
+  .oneprojects-grid__content-icon-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .oneprojects-grid__content-icon-2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .oneprojects-grid__content-icon-3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 3px 0 0 0;
+    height: 100%;
+  }
+  .oneprojects-grid__content-icon-4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin: 3px 0 0 0;
+  }
+  .oneprojects-grid__btn {
+    margin: 48px 87px 0px auto;
+    width: 183px;
+    height: 42px;
+    padding: 5px 0 0 0;
+  }
+  .oneprojects__footer-contents {
+    margin: 80px auto 0px;
+    padding: 1px 0px 154px 0px;
+  }
+  .oneprojects__abs {
+    display: none;
+  }
+  .oneprojects__fc-tetle {
+    margin: -1px auto 0 15px;
+  }
+  .oneprojects__fc-text {
+    width: 93%;
+    text-align: left;
+    margin: 19px 0 0 15px;
+  }
+  .oneprojects__perfect {
+    margin: 96px 0px 0px 0px;
+  }
+  .oneprojects__perfect h2 {
+    font-size: 26px;
+    line-height: 32px;
+    margin: 7px 1px 0 0px;
+  }
+  .oneprojects__footer-bigicon {
+    bottom: -344px;
+    padding: 0 15px;
+    height: 392px;
   }
 }
