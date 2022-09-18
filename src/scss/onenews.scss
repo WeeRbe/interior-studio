@@ -111,13 +111,13 @@
     font-size: 14px;
     line-height: 24px;
     opacity: 0.7;
-    margin: 40px 0 0 0;
-    width: 60%;
+    margin: 39px 0 0 0;
+    width: 60.1%;
     color: #080808;
 }
 
 .onenews-grid{
-    margin: 99px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -186,7 +186,9 @@
             padding: 0px 0 0 16px;
         }
 }
-
+.onenews-production__share{
+    display: none;
+}
 .onenews-consectetur__text-bottom-bottom{
     font-family: 'Montserrat';
     font-style: normal;

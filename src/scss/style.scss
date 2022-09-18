@@ -896,6 +896,8 @@ width: 77px;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 28px;
+    position: relative;
+    z-index: 2;
 }
 .contact__footer-left {
     font-family: 'Montserrat';
@@ -923,18 +925,18 @@ width: 77px;
     p:nth-child(1){
         font-family: 'Adieu';
         font-style: italic;
-        font-weight: 400;
+        font-weight: 800;
         font-size: 12.6864px;
         line-height: 10px;
     }
     p:nth-child(2){
-        font-family: 'FreightBigProLight-Italic';
+        font-family: "FreightBigProLight-Italic";
         font-style: italic;
-        font-size: 15.2236px;
+        font-size: 13px;
         line-height: 12px;
         position: relative;
-        left: 36px;
-        top: 4px;
+        left: 38px;
+        top: 2px;
     }
 }
 
@@ -947,4 +949,5 @@ width: 77px;
 @import "projects.scss";
 @import "oneprojects.scss";
 @import "about.scss";
+@import "contact.scss";
 @import "media.scss";

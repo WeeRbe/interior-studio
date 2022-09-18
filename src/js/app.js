@@ -95,3 +95,4 @@ closePopUp.addEventListener('click', () => {
 
 
 import "./modules/onenewsswiper.js";
+

@@ -48,6 +48,12 @@
     font-size: 11px;
     line-height: 13px;
     letter-spacing: 0.06em;
+        li:hover{
+            border-bottom: 1px solid rgba(08, 08, 08, 0.8);
+            padding: 0px 0px 3px 0px;
+            position: relative;
+            top: 0;
+        }
 }
 
 

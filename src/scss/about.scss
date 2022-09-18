@@ -283,13 +283,16 @@ img.worck__process-img {
 .about-email__send-forms {
     display: flex;
     justify-content: space-between;
-    margin: 121px 0px 0px 134px;
+    margin: 121px 0px 0px 135px;
 }
 .about__send-forms {
     border-bottom: 1px solid #515151;
     margin: 10px 0px 0px 0px;
     height: 29px;
     padding: 0 0 10px 0;
+}
+.email-block-about{
+    width: 363px;
 }
 .about-email__send-forms-text {
     display: flex;
