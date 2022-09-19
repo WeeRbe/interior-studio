@@ -96,3 +96,8 @@ closePopUp.addEventListener('click', () => {
 
 import "./modules/onenewsswiper.js";
 
+$(document).ready(function() {
+	$('.header-nav__projects-btn').click(function(event) {
+		$('.header-nav__projects-btn,.header__nav-projects').toggleClass('active');
+	});
+});

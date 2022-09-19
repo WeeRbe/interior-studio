@@ -46,32 +46,63 @@
             </div>
 
             <div id="popup" class="popup">
-                <div class="popup__container">
-                    <div id="popup__body" class="popup__body">
-                        <div class="popup__top-content">
-                            <h2 class="popup__title">Calculate the cost of work</h2>
-                            <form action="#" class="form__popup">
-                                <div class="popup__input-left">
-                                    <input type="text" placeholder="Name">
-                                    <input type="text" placeholder="Phone">
-                                    <input type="text" placeholder="Email"> 
-                                </div>
-                                <div class="popup__input-right">
-                                    <input type="text" placeholder="Last name">
-                                    <input type="text" placeholder="Your city">
-                                    <input type="text" placeholder="Property type">
-                                </div>
-                                
-                            </form>
-                            <form action="#" class="popup__main-form"><input type="text" placeholder="Your comment"></form>
+                <div id="popup__body" class="popup__body">
+                    <div class="popup__top-content">
+                        <h2 class="popup__title">Calculate the cost of work</h2>
+                        <form action="#" class="form__popup">
+                            <div class="popup__input-left">
+                                <input type="text" placeholder="Name">
+                                <input type="text" placeholder="Phone">
+                                <input type="text" placeholder="Email"> 
+                            </div>
+                            <div class="popup__input-right">
+                                <input type="text" placeholder="Last name">
+                                <input type="text" placeholder="Your city">
+                                <input type="text" placeholder="Property type">
+                            </div>
+                            
+                        </form>
+                        <form action="#" class="popup__main-form"><input type="text" placeholder="Your comment"></form>
+                    </div>
+                    <div class="popup__bottom-content">
+                        <p class="popup__bottom-title">Area (m2)</p>
+                        <div class="pop-up__choices-block pop-up__choices-laptop">
+                            <div class="pop-up__choice"><p class="pop-up__choice-text">to 50</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div>
+                            <div class="pop-up__choice">
+                                <p class="pop-up__choice-text">50-150</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div>
+                            <div class="pop-up__choice">
+                                <p class="pop-up__choice-text">150-250</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div>
+                            <div class="pop-up__choice">
+                                <p class="pop-up__choice-text">250-400</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div>
+                            <div class="pop-up__choice">
+                                <p class="pop-up__choice-text">400-600</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div><div class="pop-up__choice">
+                                <p class="pop-up__choice-text">600-800</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div><div class="pop-up__choice">
+                                <p class="pop-up__choice-text">800-1000</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div><div class="pop-up__choice">
+                                <p class="pop-up__choice-text">1000+</p>
+                                <div class="pop-up__choice-round"></div>
+                            </div>
                         </div>
-                        <div class="popup__bottom-content">
-                            <p class="popup__bottom-title">Area (m2)</p>
-                            <div class="pop-up__choices-block pop-up__choices-laptop">
-                                <div class="pop-up__choice"><p class="pop-up__choice-text">to 50</p>
-                                    <div class="pop-up__choice-round"></div>
-                                </div>
+                        
+                        <div class="pop-up__choices-block pop-up__choices-tablet">
+                            <div class="pop-up__choice-4-wrapper">
                                 <div class="pop-up__choice">
+                                    <p class="pop-up__choice-text">to 50</p>
+                                    <div class="pop-up__choice-round"></div>
+                                </div><div class="pop-up__choice">
                                     <p class="pop-up__choice-text">50-150</p>
                                     <div class="pop-up__choice-round"></div>
                                 </div>
@@ -83,6 +114,8 @@
                                     <p class="pop-up__choice-text">250-400</p>
                                     <div class="pop-up__choice-round"></div>
                                 </div>
+                            </div>
+                            <div class="pop-up__choice-4-wrapper">
                                 <div class="pop-up__choice">
                                     <p class="pop-up__choice-text">400-600</p>
                                     <div class="pop-up__choice-round"></div>
@@ -97,54 +130,19 @@
                                     <div class="pop-up__choice-round"></div>
                                 </div>
                             </div>
-                            
-                            <!-- <div class="pop-up__choices-block pop-up__choices-tablet">
-                                <div class="pop-up__choice-4-wrapper">
-                                    <div class="pop-up__choice">
-                                        <p class="pop-up__choice-text">to 50</p>
-                                        <div class="pop-up__choice-round"></div>
-                                    </div><div class="pop-up__choice">
-                                        <p class="pop-up__choice-text">50-150</p>
-                                        <div class="pop-up__choice-round"></div>
-                                    </div>
-                                    <div class="pop-up__choice">
-                                        <p class="pop-up__choice-text">150-250</p>
-                                        <div class="pop-up__choice-round"></div>
-                                    </div>
-                                    <div class="pop-up__choice">
-                                        <p class="pop-up__choice-text">250-400</p>
-                                        <div class="pop-up__choice-round"></div>
-                                    </div>
-                                </div>
-                                <div class="pop-up__choice-4-wrapper">
-                                    <div class="pop-up__choice">
-                                        <p class="pop-up__choice-text">400-600</p>
-                                        <div class="pop-up__choice-round"></div>
-                                    </div><div class="pop-up__choice">
-                                        <p class="pop-up__choice-text">600-800</p>
-                                        <div class="pop-up__choice-round"></div>
-                                    </div><div class="pop-up__choice">
-                                        <p class="pop-up__choice-text">800-1000</p>
-                                        <div class="pop-up__choice-round"></div>
-                                    </div><div class="pop-up__choice">
-                                        <p class="pop-up__choice-text">1000+</p>
-                                        <div class="pop-up__choice-round"></div>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <div class="pop-up__bottom-body">
-                                <div class="pop-up__bottom-left">
-                                    <div class="pop-up__bottom-attach"></div>
-                                    <div class="pop-up__bottom-text-wrapper">
-                                        <p class="pop-up__bottom_text">Attach your file</p>
-                                        <p class="pop-up__bottom_subtext">File size not more than 10 MB</p>
-                                    </div>
-                                </div>
-                                <button class="common-font-11 common-btn pop-up__btn pop-up__btn-trigger">Send Request</button>
-                            </div>
                         </div>
-                        <div id="popup__close" class="popup__close"><img src="img/svgicons/close.svg" alt="#"></div>
+                        <div class="pop-up__bottom-body">
+                            <div class="pop-up__bottom-left">
+                                <div class="pop-up__bottom-attach"></div>
+                                <div class="pop-up__bottom-text-wrapper">
+                                    <p class="pop-up__bottom_text">Attach your file</p>
+                                    <p class="pop-up__bottom_subtext">File size not more than 10 MB</p>
+                                </div>
+                            </div>
+                            <button class="common-font-11 common-btn pop-up__btn pop-up__btn-trigger">Send Request</button>
+                        </div>
                     </div>
+                    <div id="popup__close" class="popup__close"><img src="img/svgicons/close.svg" alt="#"></div>
                 </div>
             </div>
         </div>

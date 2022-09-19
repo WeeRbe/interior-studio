@@ -891,7 +891,7 @@ width: 77px;
     margin: 20px 0px 0px 130px;
 }
 .contact__footer {
-    margin: 120px 0px 0px 0px;
+    margin: 119px 0px 0px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -906,6 +906,7 @@ width: 77px;
     font-size: 12px;
     line-height: 18px;
     color: #828282;
+    margin: -2px 0 0 0;
 }
 .contact__footer-rigft {
     display: flex;
@@ -917,7 +918,7 @@ width: 77px;
             font-size: 12px;
             line-height: 18px;
             color: #828282;
-            margin: 0px 21px 0px 0px;
+            margin: -2px 25px 0px 0px;;
         }
 }
 .footer__first {
@@ -939,6 +940,7 @@ width: 77px;
         top: 2px;
     }
 }
+
 
 @import "headerblack.scss";
 
